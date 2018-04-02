@@ -5,7 +5,7 @@ require __DIR__ . '/../vendor/autoload.php';
 session_start();
 
 // Instantiate the app
-$app = new \Slim\App(Config::SlimSettings);
+$app = new \Slim\App(\TestingStuff\Config::SlimSettings);
 
 // Set up dependencies
 require __DIR__ . '/../src/dependencies.php';

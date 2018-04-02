@@ -1,5 +1,7 @@
 <?php
 
+namespace TestingStuff;
+
 class Config
 {
     // -------- API Settings -----------------
@@ -20,7 +22,7 @@ class Config
 
             // Renderer settings
             'renderer' => [
-                'template_path' => __DIR__ . '/../templates/'
+                'template_path' => __DIR__ . '/Views/'
             ]
         ]
     ];
